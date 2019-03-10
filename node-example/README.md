@@ -27,7 +27,7 @@ From the directory that ```Dockerfile``` is in run...
 - ``` .```: Location of Dockerfile (current directory)  
 
 #### List images
-List built images to see that your docker image build
+List built images to see that your docker image build  
 ```docker image ls```  
 
 #### Running an image (creating the container)
