@@ -16,8 +16,8 @@ containers
 
 ## Terms
 
-* Container: Running instance of a image
-* Image: Template for creating the environment you want. This will define the
+* **Container**: Running instance of a image
+* **Image**: Template for creating the environment you want. This will define the
 OS, runtime, and application code all bundled up
-* Dockerfile: How images are defined
+* **Dockerfile**: How images are defined
 
