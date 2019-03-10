@@ -29,14 +29,25 @@ From the directory that ```Dockerfile``` is in run...
 #### List images
 List built images to see that your docker image build  
 ```docker image ls```  
+- Notice that there are two built images. One for the image we built, and one 
+for the node image that our image was built ontop of.
 
 #### Running an image (creating the container)
 ```docker run -p 8080:8080 <image-name>```
 - ```-p 8080:8080```: Forward port 8080 in the host (your computer) to 8080 in 
 the container. So when your computer gets a requst to 8080, docker will forward
 the request to :8080 in the container. We have specified in the docker file for 
-our container to expose 8080, and our js file is listening on port 8080.
+our container to expose 8080, and our js file is listening on port 8080.  
+- Notice that the command line has stalled and you can't ctrl+c out. You can kill
+the container, but first go to localhost:8080 to see the app up and running.
 
+
+#### List containers
+List running images (containers)
+```docker container ls```  
+
+#### Stopping a container
+```docker container stop <container-id>```  
 
 
 
