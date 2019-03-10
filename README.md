@@ -10,7 +10,6 @@
 
 * VM: each VM gets it's own full OS including the kernel (core of OS).
 This is resource heavy
-
 * Docker: Each container will use the host kernel and is shared across all 
 containers
 
