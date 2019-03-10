@@ -20,7 +20,7 @@ CMD node index.js
 ### Command Line
 
 From the directory that ```Dockerfile``` is in run...  
-```docker build -t <container-name> .```  
+```$ docker build -t <container-name> .```  
 - ```docker build```: Build the container
 - ```-t <container-name>```: Name the container
 - ``` .```: Location of Dockerfile (current directory)
