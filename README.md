@@ -21,3 +21,6 @@ containers
 OS, runtime, and application code all bundled up
 * **Dockerfile**: How images are defined
 
+
+docker tag 8c299ecea144 zachcristol/app:firsttry
+docker push zachcristol/app
